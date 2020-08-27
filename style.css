@@ -15,6 +15,10 @@ body {
 	background: url(https://lh3.googleusercontent.com/3NE_W7qHOHA5JUUqMnLxFfyX30_jAyarVG1Ujc-DnL5vpt9p3oeEEZPDbAJfW4fqN1g_lvU=s154);
 }
 
+.footer a, p, form, header div, header i {
+	padding: 2%;
+}
+
 #first {
 	background: #000;
 	color: #fff;
@@ -46,16 +50,17 @@ text-align: center;
 }
 
 .form-control {
-	width: 300px;
+	width: 100%;
 }
 
 .btn-lg, .btn-group-lg > .btn {
 	font-size: 34px;
 }
+.form-group {
+	width: 300px;
+	text-align: end;
+}
 
-label {	
-		margin-right: 429px;
-	}
 
 
 
